@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5884081605190229065}
   - component: {fileID: 5884081605190229066}
   - component: {fileID: 5884081605190229067}
+  - component: {fileID: 6825857237487600210}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1915468577
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 510698910, guid: 5249859fecb85074db634aaa5bb09171, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -120,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.033928752, y: -0.07028121}
+  m_Offset: {x: 0.024234802, y: -0.1454094}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -131,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.761117, y: 2.0594378}
+  m_Size: {x: 0.7805049, y: 1.9091815}
   m_EdgeRadius: 0
 --- !u!50 &5884081605190229067
 Rigidbody2D:
@@ -154,3 +155,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6825857237487600210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5884081605190229068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b59c71d61a6ec54f8ecd8f86a2cd045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 10
+  jumbForce: 11
