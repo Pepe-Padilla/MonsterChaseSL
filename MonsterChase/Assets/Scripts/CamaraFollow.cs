@@ -23,7 +23,7 @@ public class CamaraFollow : MonoBehaviour
     // Update is called once per frame
     void LateUpdate() {
         tempPos = transform.position;
-        tempPos.x = player.position.x;
+        tempPos.x = player.position.x; //todo agegar un max
         transform.position = tempPos;
     }
 }
